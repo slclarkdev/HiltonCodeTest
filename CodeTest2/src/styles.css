@@ -1,0 +1,68 @@
+body{margin: 50px;}
+
+.clearFloats{clear:both}
+
+div.singleRoom{
+    width: 190px;
+    float:left;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #e7e7e7;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+
+div.enabled select{
+    background-color: white;
+}
+
+
+div.singleRoom div.rowTitle{
+    width: 90%;
+    margin-left:5%;
+    margin-top: 10px;
+
+}
+div.singleRoom h2{
+    width: 80%;
+    display:inline;
+    font-size: 1.8rem;
+    margin-left:10px;
+}
+
+div.singleRoom .disabled h2{
+   width: 80%;
+}
+
+div.singleRoom .groupedControls{
+    background-color: white;
+    margin: 4px;
+    padding:10px 10px 10px 16px;
+
+}
+
+div.singleRoom .disabled .groupedControls{
+    background-color: #e7e7e7;
+}
+
+
+div.singleRoom input[type="checkbox"]{
+    float:left;
+    font-size: 14px;
+}
+
+div.singleRoom div.form-group{
+    display:inline-block;
+    width: 58px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.buttonGroup{
+    clear: both;
+    display: block;
+    padding: 13px 20px;
+}

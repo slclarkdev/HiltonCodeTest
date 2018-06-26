@@ -1,0 +1,21 @@
+Code Test 1
+The only assumptions I had to make were fonts, font-sizes and colors.  Usually those are given to me along with a project.  I guesstimated the best that I could on those.
+
+Code Test 2
+There were a lot more issues with this code test.  It's a test that looks simple but ends up having some interesting issues.
+The main issue was saving the form.  Normally I would use redux-form and axios to save to a database, but there were time constraint issues.
+
+a) my time to do this was limited and inconsistent since I am also moving and fielding probably
+20 or more phone calls a day from recruiters.
+b) I wanted to use redux-form, but had issues with re mapping to <Fields> and
+gave it up for a less elegant and simpler solution that would allow me to finish the test in a decent period of time.
+I certainly wouldn't use my solution in a production environment.
+
+I ended up using local storage, getting and setting the redux store there on a fetch and a submit.
+I would prefer to refactor the local store functions into a higher order component, but again time constraints were not in my favor.
+
+I had fun doing this.  Thank you for the opportunity.
+
+To run this, simply clone the git, run npm install and then npm run start in your local environment.
+
+Sandra Clark
