@@ -1,5 +1,6 @@
 Code Test 1
-The only assumptions I had to make were fonts, font-sizes and colors.  Usually those are given to me along with a project.  I guesstimated the best that I could on those.
+The only assumptions I had to make were fonts, font-sizes and colors.  Usually those are given to me along with a project.
+I guesstimated the best that I could on those.
 
 Code Test 2
 There were a lot more issues with this code test.  It's a test that looks simple but ends up having some interesting issues.
