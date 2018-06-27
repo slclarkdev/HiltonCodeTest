@@ -11,6 +11,8 @@ a) my time to do this was limited and inconsistent since I am also moving and fi
 b) I wanted to use redux-form, but had issues with re mapping to <Fields> and
 gave it up for a less elegant and simpler solution that would allow me to finish the test in a decent period of time.
 I certainly wouldn't use my solution in a production environment.
+c) There is one requirement I could not complete.  When unchecking the box, the items revert back to their defaults.
+The object is reset and the dropdown is refreshed, but the number does not change. I just did not have enough time to finish debugging it.
 
 I ended up using local storage, getting and setting the redux store there on a fetch and a submit.
 I would prefer to refactor the local store functions into a higher order component, but again time constraints were not in my favor.
